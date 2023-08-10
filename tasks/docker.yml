@@ -1,0 +1,17 @@
+---
+- name: Ensure that the docker-plugins directory exists
+  file:
+    path: ~/.docker/cli-plugins
+    state: directory
+
+- name: Symlink docker-buildx to docker plugins directory
+  file:
+    src: "{{ lookup('ansible.builtin.env', 'HOMEBREW_PREFIX') }}/opt/docker-buildx/bin/docker-buildx"
+    dest: ~/.docker/cli-plugins/docker-buildx
+    state: link
+
+- name: Symlink docker-compose to docker plugins directory
+  file:
+    src: "{{ lookup('ansible.builtin.env', 'HOMEBREW_PREFIX') }}/opt/docker-compose/bin/docker-compose"
+    dest: ~/.docker/cli-plugins/docker-compose
+    state: link

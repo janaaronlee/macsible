@@ -42,6 +42,9 @@
     - import_tasks: tasks/oh-my-zsh.yml
       tags: ['oh-my-zsh']
 
+    - import_tasks: tasks/docker.yml
+      tags: ['docker']
+
     - import_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 
