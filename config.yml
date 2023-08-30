@@ -30,11 +30,7 @@ dotfiles_files:
 homebrew_uninstalled_packages: []
 homebrew_installed_packages:
   - asdf
-  - colima
   - coreutils
-  - docker
-  - docker-buildx
-  - docker-compose
   - findutils
   - gnupg
   - gnu-sed
@@ -79,6 +75,7 @@ homebrew_cask_apps:
   - screen-studio
   - typora
   - obsidian
+  - docker
   - android-studio
   - sublime-text
   - visual-studio-code
