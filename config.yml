@@ -31,6 +31,7 @@ homebrew_uninstalled_packages: []
 homebrew_installed_packages:
   - asdf
   - coreutils
+  - earthly
   - findutils
   - gnupg
   - gnu-sed
@@ -40,6 +41,7 @@ homebrew_installed_packages:
   - httpie
   - jq
   - starship
+  - tcld
   - tmux
   - tree
   - wget
@@ -49,12 +51,14 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/cask-fonts
   - jorgelbg/tap
+  - temporalio/brew
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_uninstalled_apps: []
 homebrew_cask_apps:
   - karabiner-elements
   - via
+  - logitune
   - logi-options-plus
   - battery
   - stats
