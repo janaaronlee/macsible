@@ -38,7 +38,6 @@ homebrew_installed_packages:
   - gnu-tar
   - gnu-indent
   - gnu-which
-  - httpie
   - jq
   - starship
   - tcld
@@ -74,7 +73,6 @@ homebrew_cask_apps:
   - vlc
   - zoom
   - steam
-  - battle-net
   - imageoptim
   - screen-studio
   - typora
