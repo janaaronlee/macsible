@@ -68,7 +68,6 @@ homebrew_cask_apps:
   - brave-browser
   - google-chrome
   - firefox
-  - viber
   - vlc
   - zoom
   - steam
