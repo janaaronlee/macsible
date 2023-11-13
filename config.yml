@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - gnu-indent
   - gnu-which
   - jq
+  - mas
   - starship
   - tcld
   - tmux
@@ -63,13 +64,14 @@ homebrew_cask_apps:
   - stats
   - secretive
   - font-meslo-lg-nerd-font
-  - warp
-  - aerial
+  - arc
   - brave-browser
   - google-chrome
   - firefox
+  - messenger
   - discord
   - viber
+  - whatsapp
   - vlc
   - zoom
   - steam
@@ -82,10 +84,9 @@ homebrew_cask_apps:
   - sublime-text
   - visual-studio-code
   - gitkraken
+  - warp
   - hyper
   - postman
-  - figma
-  - notion
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_uninstalled_apps: []
@@ -101,18 +102,12 @@ mas_installed_apps:
   - { id: 1607635845, name: "Velja" }
   - { id: 1604176982, name: "One Thing"}
   - { id: 1263070803, name: "Lungo" }
-  - { id: 1632827132, name: "Camera Preview" }
   - { id: 1294126402, name: "HEIC Converter" }
-  - { id: 1575588022, name: "MenubarX" }
   - { id: 457622435, name: "Yoink - Better Drag and Drop" }
   - { id: 430798174, name: "HazeOver • Distraction Dimmer™" }
   - { id: 1451177988, name: "Petrify" }
-  - { id: 1402042596, name: "AdBlock for Safari" }
   - { id: 1352778147, name:  "Bitwarden" }
   - { id: 1471867429, name: "OTP Auth" }
-  - { id: 1480068668, name:  "Messenger" }
-  - { id: 1147396723, name: "WhatsApp Desktop" }
-  - { id: 803453959, name: "Slack for Desktop" }
 mas_upgrade_all_apps: false
 mas_email: ""
 mas_password: ""
