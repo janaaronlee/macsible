@@ -33,22 +33,24 @@ dotfiles_files:
 
 homebrew_uninstalled_packages: []
 homebrew_installed_packages:
-  - asdf
   - coreutils
-  - earthly
   - findutils
   - gnupg
   - gnu-sed
   - gnu-tar
   - gnu-indent
   - gnu-which
-  - jq
-  - mas
-  - starship
-  - tcld
   - tmux
   - tree
   - wget
+  - mas
+  - starship
+  - jq
+  - pygments
+  - httpie
+  - asdf
+  - earthly
+  - tcld
 
 homebrew_taps:
   - homebrew/core
