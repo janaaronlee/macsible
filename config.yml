@@ -56,7 +56,6 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
-  - jorgelbg/tap
   - temporalio/brew
 
 homebrew_cask_appdir: /Applications
