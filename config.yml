@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - jq
   - pygments
   - httpie
+  - direnv
   - asdf
   - earthly
   - tcld
@@ -69,13 +70,17 @@ homebrew_cask_apps:
   - stats
   - secretive
   - font-meslo-lg-nerd-font
+  - vlc
+  - steam
   - arc
   - brave-browser
   - google-chrome
   - firefox
-  - vlc
+  - messenger
+  - viber
+  - whatsapp
+  - slack
   - zoom
-  - steam
   - imageoptim
   - screen-studio
   - typora
